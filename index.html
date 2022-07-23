@@ -11,54 +11,64 @@
 
   <div class="container">
     <div class="hero">
-      <img class="hero-img" src="images/japan.jpg" alt="japan">
+      <img class="hero-img" src="images/background.jpg" alt="leaf">
       <div class="logo">
         <img class="logo-img" src="images/odin-lined.png" alt="odin project logo">
-        <p>Sign up</p>
+        <p>ODIN</p>
       </div>
     </div>
     <div class="form">
       <div class="upper-text">
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ea numquam aspernatur esse cupiditate. Nobis, rerum molestiae ullam illo itaque nam nulla molestias sed impedit dolore!</p>
+        <p>Lorem ipsum dolor sit.</p>
       </div>
       
-      <div class="form-information">
+      <div class="signup-form">
         <p>Let's do this!</p>
-        <form action="">
-          <label for="first-name">
-            FIRST NAME
-            <input type="text" name="first-name" id="first-name">
-          </label>
+        
+        <div class="form-body">
+          <div class="horizontal">
+            <div class="form-el">
+              <label for="firstname" class="label-title">First Name</label>
+              <input type="text" id="firstname" class="form-input" required>
+            </div>
+            
+            <div class="form-el">
+              <label for="lastname" class="label-title">Last Name</label>
+              <input type="text" id="lastname" class="form-input" required>
+            </div>
+          </div>
 
-          <label for="last-name">
-            LAST NAME
-            <input type="text" name="last-name" id="last-name">
-          </label>
+          <div class="horizontal">
+            <div class="form-el">
+              <label for="email" class="label-title">Email</label>
+              <input type="text" id="email" class="form-input" required>
+            </div>
 
-          <label for="email">
-            EMAIL
-            <input type="email" id="email" value="email">
-          </label>
+            <div class="form-el">
+              <label for="phone" class="label-title">Phone Number</label>
+              <input type="text" id="phone" class="form-input" required>
+            </div>
+          </div>
 
-          <label for="phone">
-            PHONE NUMBER
-            <input type="number" id="phone" value="phone">
-          </label>
+          <div class="horizontal">
+            <div class="form-el">
+              <label for="password" class="label-title">Password</label>
+              <input type="password" id="password" class="form-input" required>
+            </div>
 
-          <label for="pwd">
-            PASSWORD
-            <input type="password" id="pwd" value="pwd">
-          </label>
+            <div class="form-el">
+              <label for="confirm-pwd" class="label-title">Confirm Password</label>
+              <input type="password" id="confirm-pwd" class="form-input" required>
+            </div>
+          </div>
 
-          <label for="con-pwd">
-            CONFIRM PASSWORD
-            <input type="password" id="con-pwd" value="con-pwd">
-          </label>
-        </form>
+        </div>
       </div>
-
-      <div class="">
+      
+      <div class="form-footer">
         <button>Create Account</button>
+        <p>Already have an account? <a href="http://#">Log in</a></p>
       </div>
 
 
